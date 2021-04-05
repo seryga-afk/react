@@ -1,0 +1,20 @@
+.content{
+    padding: auto;
+    grid-area: c;
+    height: 50%;
+    background-color: gold;
+    border-radius: 0 15px 0 15px;
+    display: grid;
+    grid-template-areas:
+    "l  r";
+    grid-template-columns: 39%  59%;
+    grid-gap: 1%;
+}
+.left{
+    grid-area: l;
+    background-color: black;
+}
+.right{
+    grid-area: r;
+    background-color: greenyellow;
+}
